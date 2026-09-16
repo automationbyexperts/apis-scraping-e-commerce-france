@@ -1,0 +1,369 @@
+{
+ "repo": "apis-scraping-e-commerce-france",
+ "title": "APIs de Scraping pour le E-commerce",
+ "tagline": "Les scrapers e-commerce les plus utilisés sur Apify, classés par utilisateurs réels par mois : Amazon, Leboncoin, Vinted, Cdiscount, Fnac, Shopify, AliExpress, Temu et Google Shopping. Produits, prix, avis, vendeurs et stock. Sans coder, export en CSV, Excel ou JSON.",
+ "brand": "AutomationByExperts",
+ "storeCategory": "ECOMMERCE",
+ "storeCategoryLabel": "E-commerce",
+ "fetchLimit": 1500,
+ "topCount": 25,
+ "intro": "Une liste sélectionnée et mise à jour chaque semaine des {count} actors e-commerce réellement utilisés, choisis parmi les {storeTotal} actors de la catégorie E-commerce de l'Apify Store, plus les outils pour Leboncoin, Cdiscount, la Fnac et les boutiques françaises, belges et suisses. Les actors que personne n'a lancés ces 30 derniers jours sont écartés, et chacun est classé selon la boutique ou la tâche qu'il couvre, pour trouver en quelques secondes un outil qui marche pour la recherche produit, la veille tarifaire, l'analyse d'avis ou le dropshipping.",
+ "languages": [
+  {
+   "label": "English",
+   "repo": "ecommerce-scraping-apis"
+  },
+  {
+   "label": "Español",
+   "repo": "apis-scraping-comercio-electronico"
+  },
+  {
+   "label": "Português",
+   "repo": "apis-scraping-ecommerce-brasil"
+  },
+  {
+   "label": "Français",
+   "repo": "apis-scraping-e-commerce-france"
+  },
+  {
+   "label": "Ελληνικά",
+   "repo": "apis-scraping-eshop-greece"
+  }
+ ],
+ "thousandsSeparator": " ",
+ "exampleActor": "junglee/amazon-crawler",
+ "exampleInput": {
+  "categoryOrProductUrls": [
+   {
+    "url": "https://www.amazon.fr/s?k=ecouteurs+sans+fil"
+   }
+  ],
+  "maxItemsPerStartUrl": 50
+ },
+ "groups": [
+  {
+   "slug": "france-francophonie",
+   "title": "Leboncoin, Cdiscount, Fnac et boutiques françaises",
+   "blurb": "Leboncoin, Vinted, Cdiscount, Fnac, Darty, Boulanger, ManoMano, Back Market, Carrefour, Leclerc, Auchan, Amazon.fr et les boutiques de Belgique et de Suisse.",
+   "keywords": [
+    "leboncoin",
+    "vinted",
+    "cdiscount",
+    "fnac",
+    "darty",
+    "boulanger",
+    "manomano",
+    "back market",
+    "backmarket",
+    "carrefour",
+    "leclerc",
+    "auchan",
+    "intermarche",
+    "intermarché",
+    "monoprix",
+    "decathlon",
+    "sephora france",
+    "vestiaire collective",
+    "rakuten france",
+    "amazon.fr",
+    "amazon france",
+    "idealo.fr",
+    "ledenicheur",
+    "galaxus",
+    "digitec",
+    "bol.com",
+    "coolblue"
+   ]
+  },
+  {
+   "slug": "amazon",
+   "title": "Amazon",
+   "blurb": "Produits, prix, BSR, vendeurs, offres et avis sur toutes les marketplaces Amazon, dont Amazon.fr.",
+   "keywords": [
+    "amazon",
+    "asin"
+   ]
+  },
+  {
+   "slug": "shopify-stores",
+   "title": "Shopify et boutiques en ligne",
+   "blurb": "Catalogues complets des boutiques Shopify, WooCommerce, PrestaShop et autres, plus la découverte de boutiques.",
+   "keywords": [
+    "shopify",
+    "woocommerce",
+    "bigcommerce",
+    "magento",
+    "wix",
+    "online store",
+    "ecommerce store",
+    "e-commerce store",
+    "store leads"
+   ]
+  },
+  {
+   "slug": "chinese-marketplaces",
+   "title": "AliExpress, Temu, Shein et Alibaba",
+   "blurb": "Données produits et fournisseurs pour le dropshipping et le sourcing sur les marketplaces chinoises.",
+   "keywords": [
+    "aliexpress",
+    "temu",
+    "shein",
+    "alibaba",
+    "1688",
+    "taobao",
+    "dhgate",
+    "made-in-china",
+    "tiktok shop"
+   ]
+  },
+  {
+   "slug": "ebay-etsy",
+   "title": "eBay et Etsy",
+   "blurb": "Annonces, prix de vente, vendeurs et avis sur eBay et Etsy.",
+   "keywords": [
+    "ebay",
+    "etsy"
+   ]
+  },
+  {
+   "slug": "us-retailers",
+   "title": "Walmart, Target et grande distribution",
+   "blurb": "Produits, prix et stock des grandes enseignes et supermarchés aux États-Unis, au Royaume-Uni et en Australie.",
+   "keywords": [
+    "walmart",
+    "target.com",
+    "target scraper",
+    "target product",
+    "costco",
+    "best buy",
+    "bestbuy",
+    "home depot",
+    "homedepot",
+    "lowe's",
+    "lowes",
+    "kroger",
+    "instacart",
+    "wayfair",
+    "macy",
+    "sephora",
+    "ulta",
+    "nordstrom",
+    "chewy",
+    "walgreens",
+    "sam's club",
+    "woolworths",
+    "coles",
+    "tesco",
+    "sainsbury",
+    "argos",
+    "aldi",
+    "lidl",
+    "carrefour",
+    "albert heijn"
+   ]
+  },
+  {
+   "slug": "price-comparison",
+   "title": "Google Shopping et comparateurs de prix",
+   "blurb": "Comparez les prix entre vendeurs, suivez les baisses de prix et surveillez la concurrence.",
+   "keywords": [
+    "google shopping",
+    "price comparison",
+    "price tracker",
+    "price monitor",
+    "idealo",
+    "pricerunner",
+    "skroutz",
+    "keepa",
+    "camelcamel",
+    "price history",
+    "competitor price",
+    "map violation",
+    "price checker"
+   ]
+  },
+  {
+   "slug": "global-marketplaces",
+   "title": "Marketplaces internationales",
+   "blurb": "Mercado Libre, Allegro, OLX, Rakuten, Shopee et autres marketplaces dans le monde.",
+   "keywords": [
+    "mercado",
+    "flipkart",
+    "shopee",
+    "lazada",
+    "rakuten",
+    "zalando",
+    "allegro",
+    "olx",
+    "vinted",
+    "coupang",
+    "noon",
+    "jumia",
+    "tokopedia",
+    "bol.com",
+    "otto",
+    "cdiscount",
+    "fnac",
+    "wallapop",
+    "kaufland",
+    "trendyol",
+    "ozon",
+    "wildberries",
+    "avito",
+    "marktplaats",
+    "leboncoin",
+    "kleinanzeigen",
+    "craigslist",
+    "facebook marketplace",
+    "gumtree",
+    "depop",
+    "poshmark",
+    "mercari",
+    "grailed",
+    "stockx",
+    "farfetch",
+    "asos",
+    "ikea",
+    "carousell",
+    "meesho",
+    "myntra",
+    "daraz",
+    "tiki",
+    "blibli",
+    "falabella",
+    "jd.com",
+    "g2g"
+   ]
+  },
+  {
+   "slug": "reviews",
+   "title": "Avis et notes produits",
+   "blurb": "Avis clients, notes et questions pour l'analyse de sentiment et la recherche produit.",
+   "keywords": [
+    "review",
+    "rating",
+    "trustpilot"
+   ]
+  },
+  {
+   "slug": "ads-and-trends",
+   "title": "Publicités et tendances produits",
+   "blurb": "Produits gagnants, bibliothèques de publicités et tendances de recherche pour le dropshipping.",
+   "keywords": [
+    "ads library",
+    "ad library",
+    "trend",
+    "winning product",
+    "dropship",
+    "best seller",
+    "bestseller"
+   ]
+  }
+ ],
+ "fallbackGroup": {
+  "slug": "other-ecommerce",
+  "title": "Autres outils e-commerce",
+  "blurb": "Courses en ligne, livraison de repas, voyages, codes promo et autres sources de niche.",
+  "keywords": []
+ },
+ "extraSearches": [
+  {
+   "group": "france-francophonie",
+   "terms": [
+    "leboncoin",
+    "vinted",
+    "cdiscount",
+    "fnac",
+    "darty",
+    "boulanger",
+    "manomano",
+    "back market",
+    "carrefour",
+    "leclerc",
+    "auchan",
+    "decathlon",
+    "amazon france",
+    "vestiaire collective",
+    "galaxus"
+   ]
+  }
+ ],
+ "featured": [
+  "fnac-data-scraping",
+  "fnacpro-scraper",
+  "cheap-amazon-scraper",
+  "multi-marketplace-price-checker",
+  "competitor-price-tracker-price-comparison-by-product-url",
+  "map-violation-monitor",
+  "brand-abuse-counterfeit-detector",
+  "bike24-result-scraper",
+  "website-change-monitor"
+ ],
+ "faq": [
+  [
+   "Quel est le meilleur scraper Leboncoin ou Vinted ?",
+   "Regardez la section Leboncoin, Cdiscount, Fnac et boutiques françaises : les actors y sont classés par utilisateurs par mois. Vérifiez qu'il couvre ce dont vous avez besoin (annonces, vendeurs, prix) et faites un petit test."
+  ],
+  [
+   "Puis-je surveiller automatiquement les prix de mes concurrents ?",
+   "Oui. Planifiez n'importe quel actor produits ou prix pour qu'il tourne chaque jour, et utilisez la section comparateurs de prix pour les outils conçus pour suivre les évolutions dans le temps."
+  ],
+  [
+   "Le scraping de données produits est-il légal ?",
+   "Collecter des informations publiques sur les produits et les prix est une pratique courante, mais vérifiez les conditions du site et la loi du pays où vous opérez, et ne collectez pas de données personnelles inutiles (RGPD)."
+  ],
+  [
+   "Ai-je besoin de proxies ou de serveurs ?",
+   "Non. Les actors tournent dans le cloud Apify et gèrent proxies, navigateurs et protections anti-bot pour vous."
+  ]
+ ],
+ "ui": {
+  "statsLine": "**{count} actors utilisés** | **{storeTotal} analysés** | **{topics} thèmes** | Mis à jour le {today}",
+  "startFree": "Commencer gratuitement sur Apify",
+  "llmsLink": "llms.txt pour les assistants IA",
+  "customLink": "Scrapers sur mesure",
+  "languages": "Langues",
+  "whatIs": "C'est quoi ?",
+  "howItWorks": "Chaque entrée est un outil hébergé dans le cloud (un « Actor ») sur la plateforme Apify : vous l'ouvrez, remplissez l'entrée, cliquez sur Start et exportez les résultats en JSON, CSV ou Excel, ou vous l'appelez depuis votre code via l'API Apify. Chaque nouveau compte reçoit un crédit mensuel gratuit, de quoi tester la plupart de ces actors sans payer.",
+  "descriptionNote": "> Les titres et descriptions des actors sont repris tels quels depuis l'Apify Store, le plus souvent en anglais. Les formulaires acceptent des recherches en français.",
+  "contents": "Sommaire",
+  "topTitle": "Les {n} plus utilisés",
+  "topIntro": "Classés selon le nombre de personnes différentes qui les ont lancés ces 30 derniers jours.",
+  "colActor": "Actor",
+  "colWhat": "Ce qu'il fait",
+  "colUsers": "Utilisateurs par mois",
+  "colRating": "Note",
+  "by": "par",
+  "seeAll": "Voir les {n} actors {title}",
+  "ownTitle": "Maintenus par nous",
+  "ownIntro": "Actors créés et maintenus par [{brand}]({site}), l'équipe derrière cette liste. Les bugs signalés dans l'onglet Issues d'Apify sont en général corrigés en quelques jours.",
+  "chooseTitle": "Comment choisir un actor",
+  "choose": [
+   "**Utilisateurs par mois** est le meilleur indicateur : il compte les personnes différentes qui ont lancé l'actor ces 30 derniers jours, donc les outils abandonnés tombent en bas.",
+   "**La note** vient des avis de l'Apify Store. Une note de 4,5 ou plus avec des dizaines d'avis indique des données fiables.",
+   "**Le modèle de prix** varie selon l'actor (paiement au résultat, à l'événement ou location mensuelle). Le prix à jour est toujours affiché sur la page de l'actor : comparez-le avant un gros lancement.",
+   "**Faites d'abord un petit test.** Limitez l'entrée à 10 ou 20 résultats, vérifiez les champs dont vous avez besoin, puis passez à l'échelle."
+  ],
+  "runTitle": "Comment en lancer un",
+  "run": [
+   "[Créez un compte Apify gratuit]({signup}) (sans carte bancaire).",
+   "Ouvrez un actor de la liste et cliquez sur **Try for free**.",
+   "Remplissez le formulaire (recherches, URLs ou filtres) et cliquez sur **Start**.",
+   "Téléchargez les résultats dans l'onglet **Output**, ou planifiez l'actor et envoyez les données vers Google Sheets, Zapier, Make, n8n ou un webhook."
+  ],
+  "fromCode": "Depuis le code, tous les actors utilisent la même API :",
+  "faqTitle": "Questions fréquentes",
+  "faqUpdatedQ": "À quelle fréquence cette liste est-elle mise à jour ?",
+  "faqUpdatedA": "Une GitHub Action la reconstruit chaque semaine à partir de l'API publique de l'Apify Store : les nouveaux actors apparaissent et les outils abandonnés disparaissent automatiquement.",
+  "faqAddQ": "Puis-je ajouter mon actor ?",
+  "faqAddA": "Publiez-le sur l'Apify Store dans la catégorie {category}. Dès que des gens l'utilisent, il entre dans la liste à la mise à jour hebdomadaire suivante. Pas besoin de pull request.",
+  "customTitle": "Besoin d'un scraper sur mesure ?",
+  "customText": "Si aucun actor ne couvre votre source, [{brand}]({site}) développe et maintient des scrapers Apify sur mesure. Écrivez à {email} avec le site et les champs dont vous avez besoin (nous répondons en français).",
+  "footer": "Si cette liste vous a fait gagner du temps, une étoile aide d'autres personnes à la trouver. Les liens vers Apify contiennent un code de parrainage qui finance la mise à jour de la liste, sans surcoût pour vous.",
+  "groupPageTitle": "{title} : {n} actors Apify",
+  "groupPageIntro": "Fait partie de [{catalog}](../README.md). Triés par utilisateurs par mois. Mis à jour le {today}.",
+  "groupPageCta": "[Créez un compte Apify gratuit]({signup}) pour lancer n'importe lequel.",
+  "llmsIntro": "Mis à jour le {today}. Utilisateurs par mois = personnes différentes sur les 30 derniers jours. Les liens contiennent un code de parrainage.",
+  "llmsUsers": "{n} utilisateurs par mois"
+ }
+}
